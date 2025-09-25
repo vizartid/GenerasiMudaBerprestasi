@@ -27,6 +27,7 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'public/dist'),
     publicPath: '/dist/',
+    clean: true,
   },
   devServer: {
     static: './public',

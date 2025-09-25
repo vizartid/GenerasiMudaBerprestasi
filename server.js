@@ -7,6 +7,15 @@ const PORT = 5000;
 // Serve static files from public directory
 app.use(express.static('public'));
 
+// Ensure proper MIME types for JS files
+app.use('/dist', express.static('public/dist', {
+  setHeaders: (res, path) => {
+    if (path.endsWith('.js')) {
+      res.setHeader('Content-Type', 'application/javascript');
+    }
+  }
+}));
+
 // Serve src files for development
 app.use('/src', express.static('src'));
 
