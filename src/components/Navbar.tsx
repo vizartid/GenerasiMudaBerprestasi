@@ -44,11 +44,10 @@ const Navbar: React.FC<NavbarProps> = ({ isScrolled }) => {
           >
             Achievements
           </Link>
+          <button className="nav-cta-btn">
+            Gabung Sekarang!
+          </button>
         </div>
-        
-        <button className="nav-cta-btn">
-          Gabung Sekarang!
-        </button>
       </div>
     </nav>
   );
