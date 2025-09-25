@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "name": "Risky Erlangga",
+    "role": "Founder",
+    "image": "https://api.builder.io/api/v1/image/assets/TEMP/fe042c6eda51c5820efe5cd4b2be1c92a2acd358?width=816",
+    "description": "Visioner di balik GMB yang berkomitmen mengembangkan potensi generasi muda Indonesia melalui program-program inovatif.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/risky-erlangga",
+      "instagram": "https://instagram.com/riskyerlangga",
+      "twitter": "https://twitter.com/riskyerlangga"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Kezia Njayani Dhiputri",
+    "role": "Tim PDD Generasi Muda Berprestasi",
+    "image": "https://api.builder.io/api/v1/image/assets/TEMP/eb262bf74a4b930f2bf57aad95f389d0a635fdf6?width=816",
+    "description": "Ahli dalam menyelenggarakan event yang menginspirasi dan menghubungkan pikiran-pikiran muda yang kreatif.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/kezia-njayani",
+      "instagram": "https://instagram.com/kezia.njayani"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Hafiza Aulia Saputri", 
+    "role": "Generasi Muda Berprestasi",
+    "image": "https://api.builder.io/api/v1/image/assets/TEMP/1d36dba2a316c07eb56abcc7f6bba5475be441f6?width=816",
+    "description": "Aktivis muda yang berdedikasi mengembangkan program-program pemberdayaan untuk generasi muda Indonesia.",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/hafiza-aulia",
+      "instagram": "https://instagram.com/hafiza.aulia"
+    }
+  }
+]

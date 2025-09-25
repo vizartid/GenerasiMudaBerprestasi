@@ -4,11 +4,29 @@
   "description": "Generasi Muda Berprestasi Landing Page",
   "main": "server.js",
   "scripts": {
+    "dev": "concurrently \"webpack --watch\" \"nodemon server.js\"",
+    "build": "webpack --mode=production",
     "start": "node server.js",
-    "dev": "node server.js"
+    "serve": "webpack serve",
+    "webpack-build": "webpack"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "concurrently": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.1.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.9.2",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.4",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
   },
   "engines": {
     "node": ">=18.0.0"
