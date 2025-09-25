@@ -1,4 +1,4 @@
-# Interactive GMB Landing Page
+# GMB Landing Page
 
 A fully interactive React-based landing page for Generasi Muda Berprestasi (GMB) with modern animations, responsive design, and engaging user interactions.
 
