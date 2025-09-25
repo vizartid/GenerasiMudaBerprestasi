@@ -45,20 +45,7 @@ const Navbar: React.FC<NavbarProps> = ({ isScrolled }) => {
             Achievements
           </Link>
         </div>
-        <div className="nav-social">
-          <a href="https://facebook.com/gmbindonesia" target="_blank" rel="noopener noreferrer" className="social-link">
-            <i className="fab fa-facebook-f"></i>
-          </a>
-          <a href="https://instagram.com/gmbindonesia" target="_blank" rel="noopener noreferrer" className="social-link">
-            <i className="fab fa-instagram"></i>
-          </a>
-          <a href="https://linkedin.com/company/gmbindonesia" target="_blank" rel="noopener noreferrer" className="social-link">
-            <i className="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://twitter.com/gmbindonesia" target="_blank" rel="noopener noreferrer" className="social-link">
-            <i className="fab fa-twitter"></i>
-          </a>
-        </div>
+        
         <button className="nav-cta-btn">
           Gabung Sekarang!
         </button>
