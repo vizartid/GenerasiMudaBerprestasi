@@ -17,19 +17,41 @@ const Footer: React.FC = () => {
             </p>
             <div className="footer-social">
               <a href="https://facebook.com/gmbindonesia" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook" width="24" height="24" style={{filter: 'invert(26%) sepia(94%) saturate(1847%) hue-rotate(213deg) brightness(97%) contrast(90%)'}} />
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#1877F2"/>
+                </svg>
               </a>
               <a href="https://instagram.com/gmbindonesia" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" width="24" height="24" style={{filter: 'invert(11%) sepia(100%) saturate(7426%) hue-rotate(295deg) brightness(84%) contrast(78%)'}} />
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <defs>
+                    <radialGradient id="instagram-gradient" cx="32%" cy="100%" r="145%">
+                      <stop offset="0%" stopColor="#833ab4"/>
+                      <stop offset="50%" stopColor="#fd1d1d"/>
+                      <stop offset="100%" stopColor="#fcb045"/>
+                    </radialGradient>
+                  </defs>
+                  <rect x="2" y="2" width="20" height="20" rx="5" fill="url(#instagram-gradient)"/>
+                  <circle cx="12" cy="12" r="4" stroke="white" strokeWidth="2" fill="none"/>
+                  <circle cx="17.5" cy="6.5" r="1.5" fill="white"/>
+                </svg>
               </a>
               <a href="https://twitter.com/gmbindonesia" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/twitter.svg" alt="Twitter" width="24" height="24" style={{filter: 'invert(47%) sepia(82%) saturate(2618%) hue-rotate(200deg) brightness(97%) contrast(94%)'}} />
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#1DA1F2"/>
+                </svg>
               </a>
               <a href="https://linkedin.com/company/gmbindonesia" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="24" height="24" style={{filter: 'invert(10%) sepia(100%) saturate(3426%) hue-rotate(200deg) brightness(98%) contrast(98%)'}} />
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="2" fill="#0077B5"/>
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="white"/>
+                </svg>
               </a>
               <a href="https://youtube.com/gmbindonesia" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" alt="YouTube" width="24" height="24" style={{filter: 'invert(19%) sepia(89%) saturate(6067%) hue-rotate(3deg) brightness(108%) contrast(104%)'}} />
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="3" fill="#FF0000"/>
+                  <path d="M19.615 6.455c-.145-.465-.573-.83-1.006-.973C17.702 5.2 12 5.2 12 5.2s-5.702 0-6.609.282c-.433.143-.861.508-1.006.973C4.1 7.453 4.1 12 4.1 12s0 4.547.285 5.545c.145.465.573.83 1.006.973.907.282 6.609.282 6.609.282s5.702 0 6.609-.282c.433-.143.861-.508 1.006-.973C19.9 16.547 19.9 12 19.9 12s0-4.547-.285-5.545z" fill="#FF0000"/>
+                  <path d="M10.4 15.13l4.16-2.63-4.16-2.63v5.26z" fill="white"/>
+                </svg>
               </a>
             </div>
           </div>

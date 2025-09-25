@@ -16,7 +16,7 @@ const Navbar: React.FC<NavbarProps> = ({ isScrolled }) => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <div className="nav-brand">
-          <Link to="/">
+          <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '20px', textDecoration: 'none' }}>
             <img 
               src="https://api.builder.io/api/v1/image/assets/TEMP/626c3c4e88a703d4a8541e2f9b61bef4e1ed224d?width=120" 
               alt="GMB Logo" 
