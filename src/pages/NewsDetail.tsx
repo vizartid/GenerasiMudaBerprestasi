@@ -42,7 +42,6 @@ const NewsDetail: React.FC = () => {
           <div className="error-message">
             <h2>Artikel tidak ditemukan</h2>
             <p>Artikel yang Anda cari tidak ada atau telah dihapus.</p>
-            <Link to="/activities" className="back-link">← Kembali ke Kegiatan</Link>
           </div>
         </div>
       </div>
